@@ -8,10 +8,10 @@ def move(my_history, their_history, my_score, their_score):
     if len(their_history) == 0:
         return 'c'
         
-    elif float(len(their_history))/opponent_moves > .6:
+    elif float(len(their_history))/opponent_moves > .6
         return 'b'
         
-    elif float(len(their_history))/opponent_moves < .1:
+    elif float(len(their_history))/opponent_moves < .1
         return 'b'
         
     else:
